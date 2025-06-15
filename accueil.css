@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap%27');
+
+/* global changement */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    background-color: #5B626C;
+}
+
+/* Barre nav */
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #2A3744;
+    height: 70px;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+nav ul a{
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+    padding: 9px;
+    font-weight: bold;
+}
+
+#bouton-accueil img{
+    width: 50px;
+    height: auto;
+}
+
+nav ul a:not(#bouton-accueil):hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A3744;
+    height: 70px;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+/* Contenu de la page */
+
+#section-logo {
+    background-image: url('image/trvail.jpg');
+    background-size: cover;
+    background-position: center bottom 37%;
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-top: 50px; 
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#section-logo .content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#section-logo h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#section-logo p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* qualités */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    background-color: #2A3744; 
+    padding: 10px;
+    color: white; 
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.text-content {
+    width: 60%;
+    text-align: left;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-content h3 {
+    margin-top: 5px;
+    color: #34495E; 
+}
+
+.image-content {
+    width: 35%;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.text-content ul {
+    padding-left: 20px; 
+}
+
+.text-content ul li {
+    list-style-type: disc; 
+    margin: 5px 0; 
+    color: #34495E; 
+}
